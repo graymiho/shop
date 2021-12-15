@@ -11,10 +11,12 @@
     <link rel="stylesheet" href="./css/main.css">
 
 
-    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic"
-    <link rel="preconnect" href="https://fonts.googleapis.com"> rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&amp;display=swap" rel="stylesheet">
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+
 
     <title>Document</title>
 </head>
@@ -22,12 +24,26 @@
     <header class="header">
         <div class="logo-bar">
             <div class="logo">
-                <a href="index.html"><strong>LOGO BOX</strong></a>
+
+                <a href="index.html">TOM CLANCY</a>
             </div>
-            <div class="search-bar">
-                <input type="text">
-                <button class="search-btn">검색</button>
-            </div>
+
+              <div class="search-bar">
+                  <input type="text">
+                  <!--
+                  <button class="search-btn">검색</button>
+                -->
+
+              </div>
+
+
+              <div class="search_icon">
+                <a href="#" class="btn">
+                  <img class="icon-heart1 dis-block trans-04" src="images/icons/search.png" alt="ICON">
+
+                </a>
+              </div>
+
             <div class="simple-bar">
                 <form>
                     <div class="btn-login"><a href="">로그인</a></div>
@@ -56,6 +72,13 @@
                 </li>
                 <li class="nav-main">
                     <a href="">TOP</a>
+                    <div class="sub-nav">
+                        <a href=""></a>
+                        <a href=""></a>
+                    </div>
+                </li>
+                <li class="nav-main">
+                    <a href="">PANTS</a>
                     <div class="sub-nav">
                         <a href=""></a>
                         <a href=""></a>
@@ -115,23 +138,26 @@
         </div>
         <br>
 
+
         <div style="text-align:center">
             <span class="dot" onclick="currentSlide(1)"></span>
             <span class="dot" onclick="currentSlide(2)"></span>
             <span class="dot" onclick="currentSlide(3)"></span>
         </div>
+        <br>
+        <br>
         <div class="middle-section">
             <div class="content-box">
-                <div id="content-first">
+                <div class="content-first">
                     <img src="./images/fashionable-man-in-hat.jpg" width="150px" height="200px">
                 </div>
-                <div id="content-second">
+                <div class="content-second">
                     <img src="./images/photo-1552708068-ddef64d75aee.jpg" width="150px" height="200px">
                 </div>
-                <div id="content-third">
+                <div class="content-third">
                     <img src="./images/urban-mens-fashion-on-young-adult.jpg" width="150px" height="200px">
                 </div>
-                <div id="content-forth">
+                <div class="content-forth">
                     <img src="./images/fashionable-man-walks-by-train-tracks.jpg" width="150px" height="200px">
                 </div>
             </div>
@@ -159,16 +185,16 @@
 			<div class="row isotope-grid" style="position: relative; height: 1721.62px;">
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women" style="position: absolute; left: 0%; top: 0px;">
 <!-- Block1_1 -->
-					<div class="block2">
-						<div class="block2-pic hov-img0">
+					<div class="block1_1">
+						<div class="block1_1_img">
 							<img src="./images/product-01.jpg"width="220px" height="272px" alt="IMG-PRODUCT">
 
 
 						</div>
 
-						<div class="block2-txt flex-w flex-t p-t-14">
-							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+						<div class="block1_1_tag">
+							<div class="block1_1_detail ">
+								<a href="product-detail.html" >
 									Esprit Ruffle Shirt
 								</a>
 
@@ -184,16 +210,16 @@
 
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women" style="position: absolute; left: 25%; top: 0px;">
 <!-- Block1_2 -->
-					<div class="block2">
-						<div class="block2-pic hov-img0">
+					<div class="block1_2">
+						<div class="block1_2_img">
 							<img src="./images/product-02.jpg"width="220px" height="272px" alt="IMG-PRODUCT">
 
 
 						</div>
 
-						<div class="block2-txt flex-w flex-t p-t-14">
-							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+						<div class="block1_2_tag">
+							<div class="block1_2_detail ">
+								<a href="product-detail.html" >
 									Herschel supply
 								</a>
 
@@ -209,16 +235,16 @@
 
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item men" style="position: absolute; left: 50%; top: 0px;">
 <!-- Block1_3 -->
-					<div class="block2">
-						<div class="block2-pic hov-img0">
+					<div class="block1_3">
+						<div class="block1_3_img">
 							<img src="./images/product-03.jpg"width="220px" height="272px" alt="IMG-PRODUCT">
 
 
 						</div>
 
-						<div class="block2-txt flex-w flex-t p-t-14">
-							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+						<div class="block1_3_tag">
+							<div class="block1_3_detail ">
+								<a href="product-detail.html" >
 									Only Check Trouser
 								</a>
 
@@ -234,16 +260,16 @@
 
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women" style="position: absolute; left: 75%; top: 0px;">
 <!-- Block1_4 -->
-					<div class="block2">
-						<div class="block2-pic hov-img0">
+					<div class="block1_4">
+						<div class="block1_4_img">
 							<img src="./images/product-04.jpg"width="220px" height="272px" alt="IMG-PRODUCT">
 
 
 						</div>
 
-						<div class="block2-txt flex-w flex-t p-t-14">
-							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+						<div class="block1_4_tag">
+							<div class="block1_4_detail">
+								<a href="product-detail.html" >
 									Classic Trench Coat
 								</a>
 
@@ -259,16 +285,16 @@
 
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women" style="position: absolute; left: 0%; top: 430px;">
 <!-- Block2_1 -->
-					<div class="block2">
-						<div class="block2-pic hov-img0">
+					<div class="block2_1">
+						<div class="block2_1_img">
 							<img src="./images/product-05.jpg"width="220px" height="272px" alt="IMG-PRODUCT">
 
 
 						</div>
 
-						<div class="block2-txt flex-w flex-t p-t-14">
-							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+						<div class="block2_1_tag">
+							<div class="block2_1_detail ">
+								<a href="product-detail.html" >
 									Front Pocket Jumper
 								</a>
 
@@ -284,16 +310,16 @@
 
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item watches" style="position: absolute; left: 25%; top: 430px;">
 <!-- Block2_2 -->
-					<div class="block2">
-						<div class="block2-pic hov-img0">
+					<div class="block2_2">
+						<div class="block2_2_img">
 							<img src="./images/product-06.jpg"width="220px" height="272px" alt="IMG-PRODUCT">
 
 
 						</div>
 
-						<div class="block2-txt flex-w flex-t p-t-14">
-							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+						<div class="block2_2_tag">
+							<div class="block2_2_detail">
+								<a href="product-detail.html" >
 									Vintage Inspired Classic
 								</a>
 
@@ -309,16 +335,16 @@
 
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women" style="position: absolute; left: 50%; top: 430px;">
 <!-- Block2_3 -->
-					<div class="block2">
-						<div class="block2-pic hov-img0">
+					<div class="block2_3">
+						<div class="block2_3_img">
 							<img src="./images/product-07.jpg"width="220px" height="272px" alt="IMG-PRODUCT">
 
 
 						</div>
 
-						<div class="block2-txt flex-w flex-t p-t-14">
-							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+						<div class="block2_3_tag">
+							<div class="block2_3_detail ">
+								<a href="product-detail.html" >
 									Shirt in Stretch Cotton
 								</a>
 
@@ -334,16 +360,16 @@
 
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women" style="position: absolute; left: 75%; top: 430px;">
 <!-- Block2_4 -->
-					<div class="block2">
-						<div class="block2-pic hov-img0">
+					<div class="block2_4">
+						<div class="block2_4_img">
 							<img src="./images/product-08.jpg"width="220px" height="272px" alt="IMG-PRODUCT">
 
 
 						</div>
 
-						<div class="block2-txt flex-w flex-t p-t-14">
-							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+						<div class="block2_4_tag">
+							<div class="block2_4_detail ">
+								<a href="product-detail.html" >
 									Pieces Metallic Printed
 								</a>
 
@@ -359,16 +385,16 @@
 
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item shoes" style="position: absolute; left: 0%; top: 860px;">
 <!-- Block3_1 -->
-					<div class="block2">
-						<div class="block2-pic hov-img0">
+					<div class="block3_1">
+						<div class="block3_1_img">
 							<img src="./images/product-09.jpg"width="220px" height="272px" alt="IMG-PRODUCT">
 
 
 						</div>
 
-						<div class="block2-txt flex-w flex-t p-t-14">
-							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+						<div class="block3_1_tag">
+							<div class="block3_1_detail ">
+								<a href="product-detail.html" >
 									Converse All Star Hi Plimsolls
 								</a>
 
@@ -384,16 +410,16 @@
 
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women" style="position: absolute; left: 25%; top: 860px;">
 <!-- Block3_2 -->
-					<div class="block2">
-						<div class="block2-pic hov-img0">
+					<div class="block3_2">
+						<div class="block3_2_img">
 							<img src="./images/product-10.jpg"width="220px" height="272px" alt="IMG-PRODUCT">
 
 
 						</div>
 
-						<div class="block2-txt flex-w flex-t p-t-14">
-							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+						<div class="block3_2_tag">
+							<div class="block3_2_detail ">
+								<a href="product-detail.html" >
 									Femme T-Shirt In Stripe
 								</a>
 
@@ -409,16 +435,16 @@
 
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item men" style="position: absolute; left: 50%; top: 860px;">
 <!-- Block3_3 -->
-					<div class="block2">
-						<div class="block2-pic hov-img0">
+					<div class="block3_3">
+						<div class="block3_3_img">
 							<img src="./images/product-11.jpg"width="220px" height="272px" alt="IMG-PRODUCT">
 
 
 						</div>
 
-						<div class="block2-txt flex-w flex-t p-t-14">
-							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+						<div class="block3_3_tag">
+							<div class="block3_3_detail ">
+								<a href="product-detail.html" >
 									Herschel supply
 								</a>
 
@@ -434,16 +460,16 @@
 
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item men" style="position: absolute; left: 75%; top: 860px;">
 <!-- Block3_4 -->
-					<div class="block2">
-						<div class="block2-pic hov-img0">
+					<div class="block3_4">
+						<div class="block3_4_img">
 							<img src="./images/product-12.jpg"width="220px" height="272px" alt="IMG-PRODUCT">
 
 
 						</div>
 
-						<div class="block2-txt flex-w flex-t p-t-14">
-							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+						<div class="block3_4_tag">
+							<div class="block3_4_detail ">
+								<a href="product-detail.html" >
 									Herschel supply
 								</a>
 
@@ -459,16 +485,16 @@
 
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women" style="position: absolute; left: 0%; top: 1291px;">
 <!-- Block4_1 -->
-					<div class="block2">
-						<div class="block2-pic hov-img0">
+					<div class="block4_1">
+						<div class="block4_1_img">
 							<img src="./images/product-13.jpg"width="220px" height="272px" alt="IMG-PRODUCT">
 
 
 						</div>
 
-						<div class="block2-txt flex-w flex-t p-t-14">
-							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+						<div class="block4_1_tag">
+							<div class="block4_1_detail ">
+								<a href="product-detail.html" >
 									T-Shirt with Sleeve
 								</a>
 
@@ -484,16 +510,16 @@
 
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women" style="position: absolute; left: 25%; top: 1291px;">
 <!-- Block4_2 -->
-					<div class="block2">
-						<div class="block2-pic hov-img0">
+					<div class="block4_2">
+						<div class="block4_2_img">
 							<img src="./images/product-14.jpg"width="220px" height="272px" alt="IMG-PRODUCT">
 
 
 						</div>
 
-						<div class="block2-txt flex-w flex-t p-t-14">
-							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+						<div class="block4_2_tag">
+							<div class="block4_2_detail ">
+								<a href="product-detail.html" >
 									Pretty Little Thing
 								</a>
 
@@ -509,16 +535,16 @@
 
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item watches" style="position: absolute; left: 50%; top: 1291px;">
 <!-- Block4_3 -->
-					<div class="block2">
-						<div class="block2-pic hov-img0">
+					<div class="block4_3">
+						<div class="block4_3_img">
 							<img src="./images/product-15.jpg"width="220px" height="272px" alt="IMG-PRODUCT">
 
 
 						</div>
 
-						<div class="block2-txt flex-w flex-t p-t-14">
-							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+						<div class="block4_3_tag">
+							<div class="block4_3_detail ">
+								<a href="product-detail.html" >
 									Mini Silver Mesh Watch
 								</a>
 
@@ -534,16 +560,16 @@
 
 				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women" style="position: absolute; left: 75%; top: 1291px;">
 <!-- Block4_4 -->
-					<div class="block2">
-						<div class="block2-pic hov-img0">
+					<div class="block4_4">
+						<div class="block4_4_img">
 							<img src="./images/product-16.jpg"width="220px" height="272px" alt="IMG-PRODUCT">
 
 
 						</div>
 
-						<div class="block2-txt flex-w flex-t p-t-14">
-							<div class="block2-txt-child1 flex-col-l ">
-								<a href="product-detail.html" class="stext-104 cl4 hov-cl1 trans-04 js-name-b2 p-b-6">
+						<div class="block4_4_tag">
+							<div class="block4_4_detail ">
+								<a href="product-detail.html" >
 									Square Neck Back
 								</a>
 
@@ -558,15 +584,36 @@
 				</div>
 			</div>
 
-			<!-- Load more -->
-			<div class="flex-c-m flex-w w-full p-t-45">
-				<a href="#" class="flex-c-m stext-101 cl5 size-103 bg2 bor1 hov-btn1 p-lr-15 trans-04">
-					Load More
-				</a>
-			</div>
-		</div>
+    </div>
+<!-- footer -------------------------------->
 
-  </div>
-	</section>
+</div>
+
+</section>
+<footer>
+
+
+      <div class="footer">
+          <ul>
+
+          </ul>
+
+          <address>
+             이소영 <br>
+              경기도 고양시 덕양구
+          </address>
+
+          <p class="stext-107 cl6 txt-center">
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        Copyright ©<script>document.write(new Date().getFullYear());</script>2021 All rights reserved | Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Soyoung</a>
+
+
+          </p>
+
+        </div>
+
+
+</footer>
 </body>
+<!-- footer -------------------------------->
 </html>
