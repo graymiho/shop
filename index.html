@@ -1,99 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
 
-    <script src="./main.js"></script>
-    <script type="text/javascript" src="./main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="./css/main.css">
-
-
-
-
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <title></title>
+  </head>
 
 
-    <title>Document</title>
-</head>
-<body>
-    <header class="header">
-        <div class="logo-bar">
-            <div class="logo">
-
-                <a href="index.html">TOM CLANCY</a>
-            </div>
-
-              <div class="search-bar">
-                  <input type="text">
-                  <!--
-                  <button class="search-btn">검색</button>
-                -->
-
-              </div>
 
 
-              <div class="search_icon">
-                <a href="#" class="btn">
-                  <img class="icon-heart1 dis-block trans-04" src="images/icons/search.png" alt="ICON">
+  <body>
+    <!--헤더영역-->
+    <header class="header" style="background-color:white; height:50px;">
+    <!--로고-->
+    <div class="head">
 
-                </a>
-              </div>
+       <div class="logo-bar">
 
-            <div class="simple-bar">
-                <form>
-                    <div class="btn-login"><a href="">로그인</a></div>
-                    <div class="btn-join"><a href="">회원가입</a></div>
-                    <div class="btn-qna"><a href="">고객센터</a></div>
-                </form>
-            </div>
-        </div>
+           <div class="parent" style="width:100%; height:250px;  display:flex;">
+
+               <div class="child" style="flex:1; ">
+                 <div class="logo" style="font-size: 2.5rem; color: #222222; font-family: 'Rajdhani', sans-serif; padding-left: 15px;">
+                     <a href="index.html">TOM CLANCY</a>
+                 </div>
+               </div>
+
+
+
+               <div class="child" style="float:left;position: relative; flex:1;text-align: center;">
+                 <div class="search-bar">
+                     <input type="text" style="  border-left: white;
+                       border-right: white;
+                       border-top: white;
+                       border-bottom-color: #222222;
+                       width: 300px;
+                       padding-top:20px;">
+
+                       <!--<button class="search-btn">검색</button>-->
+                       <a href="#" class="btn">
+                         <img class="icon-heart1 dis-block trans-04" src="images/icons/search.png" alt="ICON">
+                       </a>
+
+                 </div>
+
+                 <!--
+                 <div class="search_icon" style="float:left;position: relative;">
+                   <a href="#" class="btn">
+                     <img class="icon-heart1 dis-block trans-04" src="images/icons/search.png" alt="ICON">
+                   </a>
+                 </div>
+               -->
+
+
+               </div>
+               <div class="child" style=" flex:1;">
+                 <div class="simple-bar" style="ftext-align: right;loat:left;position: relative; padding-left:200px; padding-bottom: 0px;">
+                    <form >
+                        <div class="btn-login" style="float:left;position: relative;"><a href="">로그인</a></div>
+                        <div class="btn-join" style="float:left;position: relative;"><a href="">회원가입</a></div>
+                        <div class="btn-qna" style="float:left;position: relative;"><a href="">고객센터</a></div>
+                    </form>
+                 </div>
+
+               </div>
+
+         </div>
+       </div>
+
+
+
+
+
+
+    </div>
     </header>
-    <div class="nav-bar">
-        <div class="nav">
-            <ul class="nav-all">
-                <li class="nav-main">
-                    <a href="">BEST</a>
-                    <div class="sub-nav">
-                        <a href=""></a>
-                        <a href=""></a>
-                    </div>
-                </li>
-                <li class="nav-main">
-                    <a href="">OUTER</a>
-                    <div class="sub-nav">
-                        <a href=""></a>
-                        <a href=""></a>
-                    </div>
-                </li>
-                <li class="nav-main">
-                    <a href="">TOP</a>
-                    <div class="sub-nav">
-                        <a href=""></a>
-                        <a href=""></a>
-                    </div>
-                </li>
-                <li class="nav-main">
-                    <a href="">PANTS</a>
-                    <div class="sub-nav">
-                        <a href=""></a>
-                        <a href=""></a>
-                    </div>
-                </li>
-                <li class="nav-main">
-                    <a href="">PANTS</a>
-                    <div class="sub-nav">
-                        <a href=""></a>
-                        <a href=""></a>
-                    </div>
-                </li>
-            </ul>
+
+
+
+    <section >
+<!--디텍토리영역-->
+      <nav style="background-color:#222222 ; height:30px;">
+
+
+
+      </nav>
+
+<!--메인사진영역-->
+      <div style="background-color:#E9967A;height:500px; flex:1;width:100%" >
+        <div class="main_img" style="text-align: center; ">
+            <img src="./images/young-man-watches-sunset.jpg" width="100%">
         </div>
-    </div>
+
+
+      </div>
 
 
 
@@ -111,619 +115,557 @@
 
 
 
+      <div class="parent" style="width:100%;  background: #585858; display:flex; position:relative; text-align: center; ">
 
 
 
 
 
-    <div class="content">
-        <div class="top-section">
-            <div class="slide fade">
-                <img src="./images/young-man-watches-sunset.jpg" width="100%">
-                <div class="text">One</div>
-            </div>
-
-            <div class="slide fade">
-                <img src="./images/footwear-close-up-man-tying-shoelace.jpg" width="100%">
-                <div class="text">Two</div>
-            </div>
-
-            <div class="slide fade">
-                <img src="./images/photo-1552708068-ddef64d75aee.jpg" width="100%">
-                <div class="text">Three</div>
-            </div>
-
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-        <br>
+          <div class="child" style="background: white; flex:1; width: 10%;">
+            <!--왼쪽여백-->
+          </div>
 
 
-        <div style="text-align:center">
-            <span class="dot" onclick="currentSlide(1)"></span>
-            <span class="dot" onclick="currentSlide(2)"></span>
-            <span class="dot" onclick="currentSlide(3)"></span>
-        </div>
-        <br>
-        <br>
-        <div class="middle-section">
-            <div class="content-box">
-                <div class="content-first">
-                    <img src="./images/fashionable-man-in-hat.jpg" width="150px" height="200px">
+
+
+<!--디테일사진영역-->
+                <div class="child" style="background: white;  width: 80%;">
+
+
+                  <div class="text">
+            				<h3 class="Product Overview" style="font-size: 1.5rem; color: #222222; font-family: 'Rajdhani', sans-serif;">
+                      <br>
+                      <br>
+                      <br>
+            					Product Overview
+                      <br>
+                      <br>
+            				</h3>
+            			</div>
+
+
+                  <div class="child" style ="background: yellow; height:250px">
+                    <div class="parent" style="width:100%; height:250px; background: #585858; display:flex; ">
+
+                        <div class="child" style="background: white; flex:1; ">
+                          1
+                          <div class="block1_1" >
+                            <div class="block1_1_img" >
+                              <img src="./images/product-01.jpg"width=60%  alt="IMG-PRODUCT" >
+                            </div>
+                            <div class="block1_1_tag">
+                              <div class="block1_1_detail ">
+                                <a href="product-detail.html" >
+                                  Esprit Ruffle Shirt
+                                </a>
+                                <span class="stext-105 cl3">
+                                  $16.64
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="child" style="background: white; flex:1;">
+                            2
+                            <div class="block1_1" >
+                              <div class="block1_1_img">
+                                <img src="./images/product-01.jpg"width=60%  alt="IMG-PRODUCT">
+                              </div>
+                              <div class="block1_1_tag">
+                                <div class="block1_1_detail ">
+                                  <a href="product-detail.html" >
+                                    Esprit Ruffle Shirt
+                                  </a>
+                                  <span class="stext-105 cl3">
+                                    $16.64
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+
+
+                        <div class="child" style="background: white; flex:1;">
+                            3
+                            <div class="block1_1" >
+                              <div class="block1_1_img">
+                                <img src="./images/product-01.jpg"width=60%  alt="IMG-PRODUCT">
+                              </div>
+                              <div class="block1_1_tag">
+                                <div class="block1_1_detail ">
+                                  <a href="product-detail.html" >
+                                    Esprit Ruffle Shirt
+                                  </a>
+                                  <span class="stext-105 cl3">
+                                    $16.64
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+
+
+                        <div class="child" style="background: white; flex:1;">
+                            4
+                            <div class="block1_1" >
+                              <div class="block1_1_img">
+                                <img src="./images/product-01.jpg"width=60%  alt="IMG-PRODUCT">
+                              </div>
+                              <div class="block1_1_tag">
+                                <div class="block1_1_detail ">
+                                  <a href="product-detail.html" >
+                                    Esprit Ruffle Shirt
+                                  </a>
+                                  <span class="stext-105 cl3">
+                                    $16.64
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+
+
+
+
+
+                  <div class="child" style ="background: white; height:250px">
+                    <div class="parent" style="width:100%; height:250px; background: white; display:flex;">
+                        <div class="child" style="background: white; flex:1; ">
+                          1
+                          <div class="block1_1" >
+                            <div class="block1_1_img">
+                              <img src="./images/product-01.jpg"width=60%  alt="IMG-PRODUCT">
+                            </div>
+                            <div class="block1_1_tag">
+                              <div class="block1_1_detail ">
+                                <a href="product-detail.html" >
+                                  Esprit Ruffle Shirt
+                                </a>
+                                <span class="stext-105 cl3">
+                                  $16.64
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="child" style="background: white; flex:1;">
+                            2
+                            <div class="block1_1" >
+                              <div class="block1_1_img">
+                                <img src="./images/product-01.jpg"width=60%  alt="IMG-PRODUCT">
+                              </div>
+                              <div class="block1_1_tag">
+                                <div class="block1_1_detail ">
+                                  <a href="product-detail.html" >
+                                    Esprit Ruffle Shirt
+                                  </a>
+                                  <span class="stext-105 cl3">
+                                    $16.64
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+
+
+                        <div class="child" style="background: white; flex:1;">
+                            3
+                            <div class="block1_1">
+                              <div class="block1_1_img">
+                                <img src="./images/product-01.jpg"width=60%  alt="IMG-PRODUCT">
+                              </div>
+                              <div class="block1_1_tag">
+                                <div class="block1_1_detail ">
+                                  <a href="product-detail.html" >
+                                    Esprit Ruffle Shirt
+                                  </a>
+                                  <span class="stext-105 cl3">
+                                    $16.64
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+
+
+                        <div class="child" style="background: white; flex:1;">
+                            4
+                            <div class="block1_1" >
+                              <div class="block1_1_img">
+                                <img src="./images/product-01.jpg"width=60%  alt="IMG-PRODUCT">
+                              </div>
+                              <div class="block1_1_tag">
+                                <div class="block1_1_detail ">
+                                  <a href="product-detail.html" >
+                                    Esprit Ruffle Shirt
+                                  </a>
+                                  <span class="stext-105 cl3">
+                                    $16.64
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+
+
+                  <div class="child" style ="background: white; height:250px">
+                    <div class="parent" style="width:100%; height:250px; background: #585858; display:flex;">
+                        <div class="child" style="background: white; flex:1; ">
+                          1
+                          <div class="block1_1" >
+                            <div class="block1_1_img">
+                              <img src="./images/product-01.jpg"width=60%  alt="IMG-PRODUCT">
+                            </div>
+                            <div class="block1_1_tag">
+                              <div class="block1_1_detail ">
+                                <a href="product-detail.html" >
+                                  Esprit Ruffle Shirt
+                                </a>
+                                <span class="stext-105 cl3">
+                                  $16.64
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="child" style="background: white; flex:1;">
+                            2
+                            <div class="block1_1">
+                              <div class="block1_1_img">
+                                <img src="./images/product-01.jpg"width=60%  alt="IMG-PRODUCT">
+                              </div>
+                              <div class="block1_1_tag">
+                                <div class="block1_1_detail ">
+                                  <a href="product-detail.html" >
+                                    Esprit Ruffle Shirt
+                                  </a>
+                                  <span class="stext-105 cl3">
+                                    $16.64
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+
+
+                        <div class="child" style="background: white; flex:1;">
+                            3
+                            <div class="block1_1">
+                              <div class="block1_1_img">
+                                <img src="./images/product-01.jpg"width=60%  alt="IMG-PRODUCT">
+                              </div>
+                              <div class="block1_1_tag">
+                                <div class="block1_1_detail ">
+                                  <a href="product-detail.html" >
+                                    Esprit Ruffle Shirt
+                                  </a>
+                                  <span class="stext-105 cl3">
+                                    $16.64
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+
+
+                        <div class="child" style="background: white; flex:1;">
+                            4
+                            <div class="block1_1">
+                              <div class="block1_1_img">
+                                <img src="./images/product-01.jpg"width=60%  alt="IMG-PRODUCT">
+                              </div>
+                              <div class="block1_1_tag">
+                                <div class="block1_1_detail ">
+                                  <a href="product-detail.html" >
+                                    Esprit Ruffle Shirt
+                                  </a>
+                                  <span class="stext-105 cl3">
+                                    $16.64
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+
+
+                  <div class="child" style ="background: white; height:250px">
+                    <div class="parent" style="width:100%; height:250px; background: white; display:flex;">
+                        <div class="child" style="background: white; flex:1; ">
+                          1
+                          <div class="block1_1">
+                            <div class="block1_1_img">
+                              <img src="./images/product-01.jpg"width=60%  alt="IMG-PRODUCT">
+                            </div>
+                            <div class="block1_1_tag">
+                              <div class="block1_1_detail ">
+                                <a href="product-detail.html" >
+                                  Esprit Ruffle Shirt
+                                </a>
+                                <span class="stext-105 cl3">
+                                  $16.64
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+                        <div class="child" style="background: white; flex:1;">
+                            2
+                            <div class="block1_1" >
+                              <div class="block1_1_img">
+                                <img src="./images/product-01.jpg"width=60%  alt="IMG-PRODUCT">
+                              </div>
+                              <div class="block1_1_tag">
+                                <div class="block1_1_detail ">
+                                  <a href="product-detail.html" >
+                                    Esprit Ruffle Shirt
+                                  </a>
+                                  <span class="stext-105 cl3">
+                                    $16.64
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+
+
+                        <div class="child" style="background: white; flex:1;">
+                            3
+                            <div class="block1_1">
+                              <div class="block1_1_img">
+                                <img src="./images/product-01.jpg"width=60%  alt="IMG-PRODUCT">
+                              </div>
+                              <div class="block1_1_tag">
+                                <div class="block1_1_detail ">
+                                  <a href="product-detail.html" >
+                                    Esprit Ruffle Shirt
+                                  </a>
+                                  <span class="stext-105 cl3">
+                                    $16.64
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+
+
+                        <div class="child" style="background: white; flex:1;">
+                          4
+                          <div class="block1_1">
+                            <div class="block1_1_img">
+                              <img src="./images/product-01.jpg"width=60%  alt="IMG-PRODUCT">
+                            </div>
+                            <div class="block1_1_tag">
+                              <div class="block1_1_detail ">
+                                <a href="product-detail.html" >
+                                  Esprit Ruffle Shirt
+                                </a>
+                                <span class="stext-105 cl3">
+                                  $16.64
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+                    </div>
+                  </div>
+
+
+
+
+
+
+                  <div style="background-color:white; height: 50px">
+                    <!--단락여백-->
+                  </div>
+
+
+
+
+                  <div class="text">
+            				<h3 class="Product Overview" style="font-size: 1.5rem; color: #222222; font-family: 'Rajdhani', sans-serif;">
+                      <br>
+            					Deal Of The Week
+                      <br>
+                      <br>
+                      <br>
+            				</h3>
+            			</div>
+
+
+                  <div class="child" style="background: white; height:350px; text-align: center;" >
+                      <div class="deal_ofthe_week_img" >
+                        <img src="./images/slide-05.jpg" height="400px" alt="">
+                      </div>
+                  </div>
+
+
+
+                  <div style="background-color:white; height: 100px">
+                    <!--단락여백-->
+                  </div>
+
+
+
+                  <div class="text">
+            				<h3 class="Product Overview" style="font-size: 1.5rem; color: #222222; font-family: 'Rajdhani', sans-serif;">
+                      <br>
+            					Best Sellers
+                      <br>
+            				</h3>
+            			</div>
+
+
+
+                  <div class="child" style="background: white; position:relative; height:250px;">
+                    <div class="child" style ="background: white; height:250px">
+                      <div class="parent" style="width:100%; height:250px; background: white; display:flex;">
+
+
+                          <div class="child" style="background: white; flex:1; ">
+                            1
+                            <div class="block1_1">
+                              <div class="block1_1_img">
+                                <img src="./images/product-01.jpg"width=60%  alt="IMG-PRODUCT">
+                              </div>
+                              <div class="block1_1_tag">
+                                <div class="block1_1_detail ">
+                                  <a href="product-detail.html" >
+                                    Esprit Ruffle Shirt
+                                  </a>
+                                  <span class="stext-105 cl3">
+                                    $16.64
+                                  </span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+
+                          <div class="child" style="background: white; flex:1;">
+                              2
+                              <div class="block1_1">
+                                <div class="block1_1_img">
+                                  <img src="./images/product-01.jpg"width=60%  alt="IMG-PRODUCT">
+                                </div>
+                                <div class="block1_1_tag">
+                                  <div class="block1_1_detail ">
+                                    <a href="product-detail.html" >
+                                      Esprit Ruffle Shirt
+                                    </a>
+                                    <span class="stext-105 cl3">
+                                      $16.64
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+
+
+                          <div class="child" style="background: white; flex:1;">
+                              3
+                              <div class="block1_1">
+                                <div class="block1_1_img">
+                                  <img src="./images/product-01.jpg"width=60%  alt="IMG-PRODUCT">
+                                </div>
+                                <div class="block1_1_tag">
+                                  <div class="block1_1_detail ">
+                                    <a href="product-detail.html" >
+                                      Esprit Ruffle Shirt
+                                    </a>
+                                    <span class="stext-105 cl3">
+                                      $16.64
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+
+
+                          <div class="child" style="background: white; flex:1;">
+                              4
+                              <div class="block1_1">
+                                <div class="block1_1_img">
+                                  <img src="./images/product-01.jpg"width=60%  alt="IMG-PRODUCT">
+                                </div>
+                                <div class="block1_1_tag">
+                                  <div class="block1_1_detail ">
+                                    <a href="product-detail.html" >
+                                      Esprit Ruffle Shirt
+                                    </a>
+                                    <span class="stext-105 cl3">
+                                      $16.64
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+
+                          <div class="child" style="background: white; flex:1;">
+                              5
+                              <div class="block1_1">
+                                <div class="block1_1_img">
+                                  <img src="./images/product-01.jpg"width=60%  alt="IMG-PRODUCT">
+                                </div>
+                                <div class="block1_1_tag">
+                                  <div class="block1_1_detail ">
+                                    <a href="product-detail.html" >
+                                      Esprit Ruffle Shirt
+                                    </a>
+                                    <span class="stext-105 cl3">
+                                      $16.64
+                                    </span>
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+
                 </div>
-                <div class="content-second">
-                    <img src="./images/photo-1552708068-ddef64d75aee.jpg" width="150px" height="200px">
-                </div>
-                <div class="content-third">
-                    <img src="./images/urban-mens-fashion-on-young-adult.jpg" width="150px" height="200px">
-                </div>
-                <div class="content-forth">
-                    <img src="./images/fashionable-man-walks-by-train-tracks.jpg" width="150px" height="200px">
-                </div>
-            </div>
-        </div>
 
 
+          <div class="child" style="background: white; width: 10%;">
+                <!--오른쪽여백-->
+          </div>
+      </div>
 
 
 
+      <div style="background-color:white; height: 100px">
+        <!--바닥여백-->
+      </div>
 
-  <section class="product_overview">
-		<div class="container" >
-			<div class="p-b-10">
-				<h3 class="ltext-103 cl5">
-          <br>
-					Product Overview
-          <br>
-          <br>
-          <br>
-          <br>
-				</h3>
-			</div>
 
-			<div class="flex-w flex-sb-m p-b-52" width="70%">
-			<div class="row isotope-grid" style="position: relative; height: 1721.62px;">
-				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women" style="position: absolute; left: 0%; top: 0px;">
-<!-- Block1_1 -->
-					<div class="block1_1">
-						<div class="block1_1_img">
-							<img src="./images/product-01.jpg"width=200px; height="272px" alt="IMG-PRODUCT">
 
 
-						</div>
 
-						<div class="block1_1_tag">
-							<div class="block1_1_detail ">
-								<a href="product-detail.html" >
-									Esprit Ruffle Shirt
-								</a>
+    </section>
+    <footer style="background-color:darkgray;height:300px; text-align: center; ">
+        footer영역2
+    </footer>
 
-								<span class="stext-105 cl3">
-									$16.64
-								</span>
-							</div>
 
-
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women" style="position: absolute; left: 25%; top: 0px;">
-<!-- Block1_2 -->
-					<div class="block1_2">
-						<div class="block1_2_img">
-							<img src="./images/product-02.jpg"width="220px" height="272px" alt="IMG-PRODUCT">
-
-
-						</div>
-
-						<div class="block1_2_tag">
-							<div class="block1_2_detail ">
-								<a href="product-detail.html" >
-									Herschel supply
-								</a>
-
-								<span class="stext-105 cl3">
-									$35.31
-								</span>
-							</div>
-
-
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item men" style="position: absolute; left: 50%; top: 0px;">
-<!-- Block1_3 -->
-					<div class="block1_3">
-						<div class="block1_3_img">
-							<img src="./images/product-03.jpg"width="220px" height="272px" alt="IMG-PRODUCT">
-
-
-						</div>
-
-						<div class="block1_3_tag">
-							<div class="block1_3_detail ">
-								<a href="product-detail.html" >
-									Only Check Trouser
-								</a>
-
-								<span class="stext-105 cl3">
-									$25.50
-								</span>
-							</div>
-
-
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women" style="position: absolute; left: 75%; top: 0px;">
-<!-- Block1_4 -->
-					<div class="block1_4">
-						<div class="block1_4_img">
-							<img src="./images/product-04.jpg"width="220px" height="272px" alt="IMG-PRODUCT">
-
-
-						</div>
-
-						<div class="block1_4_tag">
-							<div class="block1_4_detail">
-								<a href="product-detail.html" >
-									Classic Trench Coat
-								</a>
-
-								<span class="stext-105 cl3">
-									$75.00
-								</span>
-							</div>
-
-
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women" style="position: absolute; left: 0%; top: 430px;">
-<!-- Block2_1 -->
-					<div class="block2_1">
-						<div class="block2_1_img">
-							<img src="./images/product-05.jpg"width="220px" height="272px" alt="IMG-PRODUCT">
-
-
-						</div>
-
-						<div class="block2_1_tag">
-							<div class="block2_1_detail ">
-								<a href="product-detail.html" >
-									Front Pocket Jumper
-								</a>
-
-								<span class="stext-105 cl3">
-									$34.75
-								</span>
-							</div>
-
-
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item watches" style="position: absolute; left: 25%; top: 430px;">
-<!-- Block2_2 -->
-					<div class="block2_2">
-						<div class="block2_2_img">
-							<img src="./images/product-06.jpg"width="220px" height="272px" alt="IMG-PRODUCT">
-
-
-						</div>
-
-						<div class="block2_2_tag">
-							<div class="block2_2_detail">
-								<a href="product-detail.html" >
-									Vintage Inspired Classic
-								</a>
-
-								<span class="stext-105 cl3">
-									$93.20
-								</span>
-							</div>
-
-
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women" style="position: absolute; left: 50%; top: 430px;">
-<!-- Block2_3 -->
-					<div class="block2_3">
-						<div class="block2_3_img">
-							<img src="./images/product-07.jpg"width="220px" height="272px" alt="IMG-PRODUCT">
-
-
-						</div>
-
-						<div class="block2_3_tag">
-							<div class="block2_3_detail ">
-								<a href="product-detail.html" >
-									Shirt in Stretch Cotton
-								</a>
-
-								<span class="stext-105 cl3">
-									$52.66
-								</span>
-							</div>
-
-
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women" style="position: absolute; left: 75%; top: 430px;">
-<!-- Block2_4 -->
-					<div class="block2_4">
-						<div class="block2_4_img">
-							<img src="./images/product-08.jpg"width="220px" height="272px" alt="IMG-PRODUCT">
-
-
-						</div>
-
-						<div class="block2_4_tag">
-							<div class="block2_4_detail ">
-								<a href="product-detail.html" >
-									Pieces Metallic Printed
-								</a>
-
-								<span class="stext-105 cl3">
-									$18.96
-								</span>
-							</div>
-
-
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item shoes" style="position: absolute; left: 0%; top: 860px;">
-<!-- Block3_1 -->
-					<div class="block3_1">
-						<div class="block3_1_img">
-							<img src="./images/product-09.jpg"width="220px" height="272px" alt="IMG-PRODUCT">
-
-
-						</div>
-
-						<div class="block3_1_tag">
-							<div class="block3_1_detail ">
-								<a href="product-detail.html" >
-									Converse All Star Hi Plimsolls
-								</a>
-
-								<span class="stext-105 cl3">
-									$75.00
-								</span>
-							</div>
-
-
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women" style="position: absolute; left: 25%; top: 860px;">
-<!-- Block3_2 -->
-					<div class="block3_2">
-						<div class="block3_2_img">
-							<img src="./images/product-10.jpg"width="220px" height="272px" alt="IMG-PRODUCT">
-
-
-						</div>
-
-						<div class="block3_2_tag">
-							<div class="block3_2_detail ">
-								<a href="product-detail.html" >
-									Femme T-Shirt In Stripe
-								</a>
-
-								<span class="stext-105 cl3">
-									$25.85
-								</span>
-							</div>
-
-
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item men" style="position: absolute; left: 50%; top: 860px;">
-<!-- Block3_3 -->
-					<div class="block3_3">
-						<div class="block3_3_img">
-							<img src="./images/product-11.jpg"width="220px" height="272px" alt="IMG-PRODUCT">
-
-
-						</div>
-
-						<div class="block3_3_tag">
-							<div class="block3_3_detail ">
-								<a href="product-detail.html" >
-									Herschel supply
-								</a>
-
-								<span class="stext-105 cl3">
-									$63.16
-								</span>
-							</div>
-
-
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item men" style="position: absolute; left: 75%; top: 860px;">
-<!-- Block3_4 -->
-					<div class="block3_4">
-						<div class="block3_4_img">
-							<img src="./images/product-12.jpg"width="220px" height="272px" alt="IMG-PRODUCT">
-
-
-						</div>
-
-						<div class="block3_4_tag">
-							<div class="block3_4_detail ">
-								<a href="product-detail.html" >
-									Herschel supply
-								</a>
-
-								<span class="stext-105 cl3">
-									$63.15
-								</span>
-							</div>
-
-
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women" style="position: absolute; left: 0%; top: 1291px;">
-<!-- Block4_1 -->
-					<div class="block4_1">
-						<div class="block4_1_img">
-							<img src="./images/product-13.jpg"width="220px" height="272px" alt="IMG-PRODUCT">
-
-
-						</div>
-
-						<div class="block4_1_tag">
-							<div class="block4_1_detail ">
-								<a href="product-detail.html" >
-									T-Shirt with Sleeve
-								</a>
-
-								<span class="stext-105 cl3">
-									$18.49
-								</span>
-							</div>
-
-
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women" style="position: absolute; left: 25%; top: 1291px;">
-<!-- Block4_2 -->
-					<div class="block4_2">
-						<div class="block4_2_img">
-							<img src="./images/product-14.jpg"width="220px" height="272px" alt="IMG-PRODUCT">
-
-
-						</div>
-
-						<div class="block4_2_tag">
-							<div class="block4_2_detail ">
-								<a href="product-detail.html" >
-									Pretty Little Thing
-								</a>
-
-								<span class="stext-105 cl3">
-									$54.79
-								</span>
-							</div>
-
-
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item watches" style="position: absolute; left: 50%; top: 1291px;">
-<!-- Block4_3 -->
-					<div class="block4_3">
-						<div class="block4_3_img">
-							<img src="./images/product-15.jpg"width="220px" height="272px" alt="IMG-PRODUCT">
-
-
-						</div>
-
-						<div class="block4_3_tag">
-							<div class="block4_3_detail ">
-								<a href="product-detail.html" >
-									Mini Silver Mesh Watch
-								</a>
-
-								<span class="stext-105 cl3">
-									$86.85
-								</span>
-							</div>
-
-
-						</div>
-					</div>
-				</div>
-
-				<div class="col-sm-6 col-md-4 col-lg-3 p-b-35 isotope-item women" style="position: absolute; left: 75%; top: 1291px;">
-<!-- Block4_4 -->
-					<div class="block4_4">
-						<div class="block4_4_img">
-							<img src="./images/product-16.jpg"width="220px" height="272px" alt="IMG-PRODUCT">
-
-
-						</div>
-
-						<div class="block4_4_tag">
-							<div class="block4_4_detail ">
-								<a href="product-detail.html" >
-									Square Neck Back
-								</a>
-
-								<span class="stext-105 cl3">
-									$29.64
-								</span>
-							</div>
-
-
-						</div>
-					</div>
-				</div>
-			</div>
-
-
-
-    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- Deal of the week -->
-
-  	<div class="deal_ofthe_week">
-  		<div class="container">
-  			<div class="row align-items-center">
-  				<div class="col-lg-6">
-            <div class="section_title">
-              <h2>Deal Of The Week</h2>
-            </div>
-  					<div class="deal_ofthe_week_img">
-  						<img src="./images/slide-05.jpg"width=70% height="400px" alt="">
-  					</div>
-  				</div>
-  				<div class="col-lg-6 text-right deal_ofthe_week_col">
-
-  				</div>
-  			</div>
-  		</div>
-  	</div>
-
-  	<!-- Best Sellers -->
-
-  	<div class="best_sellers">
-  		<div class="container">
-  			<div class="row">
-  				<div class="col text-center">
-  					<div class="section_title new_arrivals_title">
-  						<h2>Best Sellers</h2>
-  					</div>
-  				</div>
-  			</div>
-  			<div class="row">
-  				<div class="col">
-  					<div class="product_slider_container">
-  						<div class="owl-carousel owl-theme product_slider">
-
-  							<!-- Slide 1 -->
-
-  							<div class="owl-item product_slider_item">
-  								<div class="product-item">
-  									<div class="product discount">
-  										<div class="product_image">
-  											<img src="./images/product-16.jpg"width="220px" height="272px" alt="">
-  										</div>
-  										<div class="favorite favorite_left"></div>
-  										<div class="product_bubble product_bubble_right product_bubble_red d-flex flex-column align-items-center"><span>-$20</span></div>
-  										<div class="product_info">
-  											<h6 class="product_name"><a href="single.html">Fujifilm X100T 16 MP Digital Camera (Silver)</a></h6>
-  											<div class="product_price">$520.00<span>$590.00</span></div>
-  										</div>
-  									</div>
-  								</div>
-  							</div>
-
-  							<!-- Slide 2 -->
-
-  							<div class="owl-item product_slider_item">
-  								<div class="product-item women">
-  									<div class="product">
-  										<div class="product_image">
-  											<img src="./images/product-16.jpg"width="220px" height="272px" alt="">
-  										</div>
-  										<div class="favorite"></div>
-  										<div class="product_bubble product_bubble_left product_bubble_green d-flex flex-column align-items-center"><span>new</span></div>
-  										<div class="product_info">
-  											<h6 class="product_name"><a href="single.html">Samsung CF591 Series Curved 27-Inch FHD Monitor</a></h6>
-  											<div class="product_price">$610.00</div>
-  										</div>
-  									</div>
-  								</div>
-  							</div>
-
-  							<!-- Slide 3 -->
-
-  							<div class="owl-item product_slider_item">
-  								<div class="product-item women">
-  									<div class="product">
-  										<div class="product_image">
-  											<img src="./images/product-16.jpg"width="220px" height="272px" alt="">
-  										</div>
-  										<div class="favorite"></div>
-  										<div class="product_info">
-  											<h6 class="product_name"><a href="single.html">Blue Yeti USB Microphone Blackout Edition</a></h6>
-  											<div class="product_price">$120.00</div>
-  										</div>
-  									</div>
-  								</div>
-  							</div>
-
-
-
-
-<!-- footer -------------------------------->
-
-</div>
-
-
-
-</section>
-<footer>
-
-
-      <div class="footer">
-          <ul>
-
-          </ul>
-
-          <address>
-             이소영 <br>
-              경기도 고양시 덕양구
-          </address>
-
-          <p class="stext-107 cl6 txt-center">
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-        Copyright ©<script>document.write(new Date().getFullYear());</script>2021 All rights reserved | Made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Soyoung</a>
-
-
-          </p>
-
-        </div>
-
-
-</footer>
-</body>
-<!-- footer -------------------------------->
+  </body>
 </html>
